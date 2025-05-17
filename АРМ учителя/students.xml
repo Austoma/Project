@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <string>Иванов</string>
+  <string>Колчанов</string>
+  <string>Конькова</string>
+  <string>Коровьев</string>
+  <string>Кудрявцева</string>
+  <string>Молчалин</string>
+  <string>Талипова</string>
+</ArrayOfString>

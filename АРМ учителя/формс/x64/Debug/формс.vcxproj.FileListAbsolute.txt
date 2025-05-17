@@ -1,0 +1,12 @@
+C:\Users\User\OneDrive\Рабочий стол\инфак17\формс\формс\x64\Debug\формс.vcxproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\инфак17\формс\формс\x64\Debug\формс.MyForm.resources
+C:\Users\User\OneDrive\Рабочий стол\инфак17\формс\формс\x64\Debug\формс.vcxproj.GenerateResource.cache
+C:\Users\User\OneDrive\Рабочий стол\инфак17\учитель\почти готово\формс\x64\Debug\формс.vcxproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\инфак17\учитель\почти готово\формс\x64\Debug\формс.MyForm.resources
+C:\Users\User\OneDrive\Рабочий стол\инфак17\учитель\почти готово\формс\x64\Debug\формс.vcxproj.GenerateResource.cache
+C:\Users\User\OneDrive\Рабочий стол\Информатика\проект\готово\формс\x64\Debug\формс.vcxproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\Информатика\проект\готово\формс\x64\Debug\формс.MyForm.resources
+C:\Users\User\OneDrive\Рабочий стол\Информатика\проект\готово\формс\x64\Debug\формс.vcxproj.GenerateResource.cache
+C:\Users\User\OneDrive\Рабочий стол\почти готово\формс\x64\Debug\формс.vcxproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\почти готово\формс\x64\Debug\формс.MyForm.resources
+C:\Users\User\OneDrive\Рабочий стол\почти готово\формс\x64\Debug\формс.vcxproj.GenerateResource.cache

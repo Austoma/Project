@@ -1,0 +1,51 @@
+  формс.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly формс, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class StudentScoreEntry: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Name : Public
+    Int32[] Scores : Public
+Class Topic: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Name : Public
+    Int32 Explanations : Public
+    Int32 Tests : Public
+    System.Collections.Generic.Dictionary`2[System.String,System.Int32[]] StudentScores : Public
+    System.Collections.Generic.List`1[System.String] StudentNames : Public
+    System.Collections.Generic.List`1[System.DateTime] TestDates : Public
+    System.Collections.Generic.List`1[System.DateTime] ExplanationDates : Public
+    System.Collections.Generic.List`1[StudentScoreEntry] StudentScoresSerializable : Public
+  Methods:
+    PrepareStudentScoresForSerialization(): PrivateScope, Public, HideBySig
+    RebuildStudentScoresFromSerializable(): PrivateScope, Public, HideBySig
+    AddStudentScore(String, Int32): PrivateScope, Public, HideBySig
+    GetStudentScores(): PrivateScope, Public, HideBySig
+    GetAverageUnderstanding(): PrivateScope, Public, HideBySig
+    AddTest(): PrivateScope, Public, HideBySig
+    GetScoresTable(): PrivateScope, Public, HideBySig
+    GetExplanationHistory(): PrivateScope, Public, HideBySig
+    GetTestHistory(): PrivateScope, Public, HideBySig
+Class StudentsManager: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    LoadStudents(): PrivateScope, Public, Static, HideBySig
+    SaveStudents(List`1): PrivateScope, Public, Static, HideBySig
+Class формс.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

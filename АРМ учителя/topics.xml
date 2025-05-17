@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTopic xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Topic>
+    <Name>массивы</Name>
+    <Explanations>1</Explanations>
+    <Tests>2</Tests>
+    <StudentNames>
+      <StudentName>Колчанов</StudentName>
+      <StudentName>Кудрявцева</StudentName>
+    </StudentNames>
+    <TestDates>
+      <TestDate>2025-05-15T12:21:53.2032754+05:00</TestDate>
+      <TestDate>2025-05-17T18:58:22.12438+05:00</TestDate>
+    </TestDates>
+    <ExplanationDates>
+      <ExplanationDate>2025-05-15T12:21:49.7854473+05:00</ExplanationDate>
+    </ExplanationDates>
+    <StudentScores>
+      <Entry>
+        <Name>Колчанов</Name>
+        <Scores>
+          <int>5</int>
+          <int>3</int>
+        </Scores>
+      </Entry>
+      <Entry>
+        <Name>Кудрявцева</Name>
+        <Scores>
+          <int>0</int>
+          <int>5</int>
+        </Scores>
+      </Entry>
+    </StudentScores>
+  </Topic>
+  <Topic>
+    <Name>сортировки</Name>
+    <Explanations>1</Explanations>
+    <Tests>1</Tests>
+    <StudentNames />
+    <TestDates>
+      <TestDate>2025-05-17T18:58:12.9835398+05:00</TestDate>
+    </TestDates>
+    <ExplanationDates>
+      <ExplanationDate>2025-05-17T18:58:08.2988338+05:00</ExplanationDate>
+    </ExplanationDates>
+    <StudentScores />
+  </Topic>
+</ArrayOfTopic>
